@@ -1,0 +1,153 @@
+@import url('http://fast.fonts.net/cssapi/af395689-2c2c-43f9-9e8f-68fdef40ecac.css');
+
+html, body{
+    margin: 0px;    
+}
+
+body{
+    background-image: url(https://i.imgur.com/s85FZkc.png);
+    
+}
+
+nav{
+    color: white;
+    font-family: "Avenir LT W01_35 Light";
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 63px;
+    margin-top: 16px;
+}
+
+nav h5{
+    font-size: 14px;
+    letter-spacing: 3px;
+    
+}
+nav a{
+    color: white;
+    font-size: 14px;
+    padding: 0.3rem;
+}
+
+.DisneyPlus{
+    display: flex;
+    justify-content: center;  
+    margin-top: 145px;
+}
+
+.DisneyPlus img{
+    max-height: 320px;
+    max-width: 320px;
+}
+
+.brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.brands img{
+    max-height: 228px;
+    max-width: 228px; 
+    padding: 0px 0px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.boton >button{
+    background: #279aff;
+    color: white;
+    border: none;
+    padding: 21px 12px;
+    font-family: "verdana";
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.boton >button:hover{
+    transform: scale(1.02);    
+    transition: 0.2s;
+    
+}
+
+    
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 250px;
+    position: relative; 
+    
+}
+
+footer a{
+    color: #9b9b9b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin-bottom: 14px;
+}
+
+footer a:hover{
+    color:white;
+}
+    
+
+footer i{
+    color: #9b9b9b;
+    font-size: 10px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 630px; 
+}
+
+footer linkP:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer h5{
+    color: #9b9b9b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin-bottom: 14px;
+}
+
+@keyframes animation-scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* Corregir texto de hoover de footer y cambiar links por texto de los que no son link*/
+
+
+
+
+
+
+
+
+
+
+ 
